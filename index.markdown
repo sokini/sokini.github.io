@@ -19,9 +19,6 @@ Please note: We are working on changing the colours so that they can be colour-b
 
 ### Find exercises according to each week
 
-##### Week 2 
+#### Week 2 
 * [Week 2 Lecture](./week2/week2_lec1.html)
 * [Week 2 Exercises](./week2/week2_ex1.html)
-
-
-##### Week 3
