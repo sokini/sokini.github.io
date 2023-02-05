@@ -42,4 +42,4 @@ The code is all scrambled up! Re-order it so it executes
 })(); 
 </script>
 
-[Next](./week2_lec2.html)
+## [Next](./week2_lec2.html)
