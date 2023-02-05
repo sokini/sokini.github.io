@@ -34,7 +34,8 @@ But we dropped our code and now it's all scrambled up :( help us find the correc
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
