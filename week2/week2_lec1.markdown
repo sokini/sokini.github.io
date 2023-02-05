@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Week 2
+title: Week 2 - Lecture
 permalink: /week2/
 ---
 
-Hola!
+The code is all scrambled up! Re-order it so it executes
+
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -42,4 +43,4 @@ Hola!
 })(); 
 </script>
 
-[Next](./week2_2.html)
+[Next](./week2_lec2.html)
