@@ -1,12 +1,5 @@
 # PDP2023 Parsons puzzle repository
 
- ____  ____  ____ ____   ___ ____  _____
-|  _ \|  _ \|  _ \___ \ / _ \___ \|___ /
-| |_) | | | | |_) |__) | | | |__) | |_ \
-|  __/| |_| |  __// __/| |_| / __/ ___) |
-|_|   |____/|_|  |_____|\___/_____|____/
-
-
 This repository hosts the different interactive parsons puzzles for the class Programming and Data Processing. This repository is a fork of an open tool made available by Codio. You can find the original repo here: https://github.com/codio-content/hosting-parsons-on-github-template 
 
 This is the first time we are using such a tool, and some bugs may be present. I only ask for your patience :)
