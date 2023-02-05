@@ -2,15 +2,22 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: page
 title: Welcome to PDP2023's Parsons problem inteartive tool
 ---
 
-### Implementation Notes
+This page serves as the main index for the Parsons problems that we will host each week. If you have any questions about this tool please contact me at luil@itu.dk 
 
-When you host multiple Parson's problems on a single markdown page, you need to add a unique prefix. You can easily do this in the Codio generator by typing a unique prefix into the "Prefix" textbox and pressing Enter/Return. Then you can simply copy-paste like normal.
+## Here are the instructions to keep in mind while using the tool
 
-If want each problem to be it's own page, you can use relative path links at the bottom of each of your markdown pages as seen below. If you want students to be able to return to previous problems in this format, consider adding previous links or link to a table of contents like page.
+### Drag or shuffle the blocks of code in the practice problems. Remember to indent where appropriate by dragging blocks to the right.
+### To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button. 
 
-### Example Next Link
-[Next](./parsons/example1.html)
+Please note: We are working on changing the colours so that they can be colour-blind friendly
+
+
+## Find exercises according to each week
+
+# Week 2 
+[Week2 Lecture](./week2/week2_lec1.html)
+[Week2 Exercises](./week2/week2_ex1.html)
