@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Week 2 - Lecture
-permalink: /week2/
 ---
 
 The code is all scrambled up! Re-order it so it executes
