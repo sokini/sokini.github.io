@@ -6,12 +6,19 @@ layout: page
 title: Welcome to PDP2023's Parsons problem inteartive tool
 ---
 
+ ____  ____  ____ ____   ___ ____  _____
+|  _ \|  _ \|  _ \___ \ / _ \___ \|___ /
+| |_) | | | | |_) |__) | | | |__) | |_ \
+|  __/| |_| |  __// __/| |_| / __/ ___) |
+|_|   |____/|_|  |_____|\___/_____|____/
+
+
 This page serves as the main index for the Parsons problems that we will host each week. If you have any questions about this tool please contact me at luil@itu.dk 
 
-## Here are the instructions to keep in mind while using the tool
+#### Here are the instructions to keep in mind while using the tool
 
-### Drag or shuffle the blocks of code in the practice problems. Remember to indent where appropriate by dragging blocks to the right.
-### To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button. 
+> Drag or shuffle the blocks of code in the practice problems. Remember to indent where appropriate by dragging blocks to the right.
+> To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button. 
 
 Please note: We are working on changing the colours so that they can be colour-blind friendly
 
