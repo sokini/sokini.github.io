@@ -41,3 +41,5 @@ Hola!
   }); 
 })(); 
 </script>
+
+[Next](./week2_2.html)
