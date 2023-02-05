@@ -6,12 +6,6 @@ layout: page
 title: Welcome to PDP2023's Parsons problem inteartive tool
 ---
 
- ____  ____  ____ ____   ___ ____  _____
-|  _ \|  _ \|  _ \___ \ / _ \___ \|___ /
-| |_) | | | | |_) |__) | | | |__) | |_ \
-|  __/| |_| |  __// __/| |_| / __/ ___) |
-|_|   |____/|_|  |_____|\___/_____|____/
-
 
 This page serves as the main index for the Parsons problems that we will host each week. If you have any questions about this tool please contact me at luil@itu.dk 
 
