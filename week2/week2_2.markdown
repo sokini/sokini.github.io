@@ -1,3 +1,8 @@
+---
+layout: page
+title: Week 2
+---
+
 Construct a program that prints 40. Hint: Only 3 lines are needed
 
 <div id="sortableTrash" class="sortable-code"></div> 
