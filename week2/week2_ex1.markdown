@@ -49,3 +49,6 @@ But we dropped our code and now it's all scrambled up :( help us find the correc
   }); 
 })(); 
 </script>
+
+## [Bonus](./bonus_ex.html)
+
