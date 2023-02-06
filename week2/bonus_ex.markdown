@@ -8,11 +8,15 @@ title: Week 2 - Exercises Bonus!!
 > competition from the other kids has gotten more and more tricky.
 
 > To inject more revenue stream into your lemonda stand business you have decided to start selling Ice Tea. And it's going very well! But you noticed your
-> book keeping system was only written to deal with one type of drink. Furthermore, now that you sell different drinks you want to keep track of your total drinks sales
+> book keeping system was only written to deal with one type of drink. Furthermore, now that you sell different drinks you want to keep track of your total drinks sales, taking into account how many you started with so you stock your drinks accordingly.
+
+The day went like this:
+- You started off with 10 lemonades and 6 iced teas in your storage
+- You sold 3 lemonades throughout the day
 
 Sadly on your way to implement the code you dropped it again 🤦 and it got jumbled up. Using it side-by-side with Mu Editor, make sure the code below works.
 
-
+What is the variable temp in this code?
 
 
 <div id="sortableTrash" class="sortable-code"></div> 
