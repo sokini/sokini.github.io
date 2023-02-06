@@ -16,8 +16,6 @@ The day went like this:
 
 Sadly on your way to implement the code you dropped it again 🤦 and it got jumbled up. Using it side-by-side with Mu Editor, make sure the code below works.
 
-What is the variable temp in this code?
-
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -30,10 +28,16 @@ What is the variable temp in this code?
 (function(){
   var initial = "lemonade = 10\n" +
     "iced_tea = 5\n" +
-    "temp = lemonade\n" +
+    "beggining_of_day_lemonade = lemonade\n" +
+    "beggining_of_day_icetea = iced_tea\n" +
+    "#here you sold 3 lemonade wooo \n" +
     "lemonade = 7\n" +
-    "total_drinks = lemonade + iced_tea\n" +
-    "print(&quot;Before selling:&quot;, total_drinks + temp)";
+    "sold_lemonade = beggining_of_day_icetea - lemonade\n" +
+    "sold_icetea = beggining_of_day_icetea - iced_tea\n" +
+    "total_drinks_in_stock = lemonade + iced_tea\n" +
+    "print(&quot;You have sold: &quot; + sold_lemonade + &quot;lemonade.&quot;)\n" +
+    "print(&quot;You have sold: &quot; + sold_icetea + &quot;iced tea&quot;)\n" +
+    "print(&quot;Current number of drinks in stock: &quot; + total_drinks_in_stock)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
