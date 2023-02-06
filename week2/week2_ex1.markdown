@@ -4,7 +4,7 @@ title: Week 2 - Exercises
 ---
 
 This code was written to measure and update the size of our new dog as they go through their first years. A new measurement is made (in centimeters) 
-every 5 months. Since we are storing the measurement in a variable that we want to update, we want to use the *'tmp'* variable to make sure each time we do a measurement
+every 5 months. Since we are storing the measurement in a variable that we want to update, we want to use the *'temp'* variable to make sure each time we do a measurement
 the latest measurement is transfered to a variable that allows us to see how much the dog has grown in the past 5 months.
 
 But we dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurements.
@@ -19,13 +19,12 @@ But we dropped our code and now it's all scrambled up :( help us find the correc
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "old_size = 78\n" +
-    "new_size = 92\n" +
-    "temp = old_size\n" +
-    "old_size = new_size\n" +
-    "new_size = temp\n" +
-    "print(&quot;new size is&quot;, old_size)\n" +
-    "print(&quot;archive: old size is &quot;, new_size)";
+  var initial = "last_biannual_measuremente = 78\n" +
+    "current_measurement = 92\n" +
+    "temp = last_biannual_measuremente\n" +
+    "last_biannual_measuremente = current_measurement\n" +
+    "print(&quot;The last time the dog was measured, they were: &quot; + str(temp) + &quot;cm&quot;)\n" +
+    "print(&quot;The last measured size is: &quot; + str(current_measurement) + &quot;cm&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
