@@ -32,7 +32,7 @@ Sadly on your way to implement the code you dropped it again 🤦 and it got jum
     "beggining_of_day_icetea = iced_tea\n" +
     "#here you sold 3 lemonade wooo \n" +
     "lemonade = 7\n" +
-    "sold_lemonade = beggining_of_day_icetea - lemonade\n" +
+    "sold_lemonade = beggining_of_day_lemonade - lemonade\n" +
     "sold_icetea = beggining_of_day_icetea - iced_tea\n" +
     "total_drinks_in_stock = lemonade + iced_tea\n" +
     "print(&quot;You have sold: &quot; + sold_lemonade + &quot;lemonade.&quot;)\n" +
