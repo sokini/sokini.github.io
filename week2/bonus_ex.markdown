@@ -11,7 +11,7 @@ title: Week 2 - Exercises Bonus!!
 > book keeping system was only written to deal with one type of drink. Furthermore, now that you sell different drinks you want to keep track of your total drinks sales, taking into account how many you started with so you stock your drinks accordingly.
 
 The day went like this:
-- You started off with 10 lemonades and 6 iced teas in your storage
+- You started off with 10 lemonades and 5 iced teas in your storage
 - You sold 3 lemonades throughout the day
 
 Sadly on your way to implement the code you dropped it again 🤦 and it got jumbled up. Using it side-by-side with Mu Editor, make sure the code below works.
