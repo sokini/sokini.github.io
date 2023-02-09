@@ -3,10 +3,10 @@ layout: page
 title: Week 3
 ---
 
-Use all lines
-line 0 is destination = 0
-line 1 is current_station = 0
-line 2 is money = 100
+> Use all lines
+> line 0 is destination = 0
+> line 1 is current_station = 0
+> line 2 is money = 100
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 

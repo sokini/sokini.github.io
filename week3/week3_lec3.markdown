@@ -3,9 +3,9 @@ layout: page
 title: Week 3
 ---
 
-Use all lines
-line 0 is destination = 0
-line 1 is ticket = True
+> Use all lines
+> line 0 is destination = 0
+> line 1 is ticket = True
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
