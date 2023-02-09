@@ -3,7 +3,7 @@ layout: page
 title: Week 3 - Lecture
 ---
 
-The code is all scrambled up! Re-order it so it executes
+Use all lines
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -14,17 +14,16 @@ The code is all scrambled up! Re-order it so it executes
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "indent = True\n" +
-    "if indent = True:\n" +
-    "	print(&quot;indent me&quot;)\n" +
-    "else:\n" +
-    "	print(&quot;hmmm&quot;)";
+  var initial = "destination = 1\n" +
+    "current_station = destination\n" +
+    "if (current_station == 1):\n" +
+    "    print(&quot;Welcome to Mars!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,

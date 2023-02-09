@@ -14,19 +14,17 @@ Construct a program that prints 40. Hint: Only 3 lines are needed
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "var3 = 40\n" +
-    "var8 = var3\n" +
-    "print(var8)\n" +
-    "var1 = 20 #distractor\n" +
-    "var2 = 6 #distractor\n" +
-    "var 1 = var2 #distractor\n" +
-    "var3 = 15 #distractor";
+  var initial = "destination = 0\n" +
+    "destination = destination + 1\n" +
+    "current_station = destination\n" +
+    "if (current_station == 1):\n" +
+    "	print(&quot;Welcome to Mars!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
