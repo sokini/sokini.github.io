@@ -3,7 +3,7 @@ layout: page
 title: Week 3
 ---
 
-Construct a program that prints 40. Hint: Only 3 lines are needed
+Use all lines
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
