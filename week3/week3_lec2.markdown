@@ -45,5 +45,5 @@ Construct a program that prints 40. Hint: Only 3 lines are needed
 })(); 
 </script>
 
-## [Previous](./week2_lec1.html)
-
+## [Previous](./week3_lec1.html)
+## [Next](./week3_lec3.html)
