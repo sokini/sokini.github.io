@@ -5,7 +5,6 @@ title: Week 3 - Lecture
 
 The code is all scrambled up! Re-order it so it executes
 
-
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -15,9 +14,11 @@ The code is all scrambled up! Re-order it so it executes
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "name = input(&quot;Please enter your name: &quot;)\n" +
-    "food = input(&quot;What is your favourite food? &quot; + name + ”?”)\n" +
-    "print(food + &quot; is a good choice &quot;)";
+  var initial = "indent = True\n" +
+    "if indent = True:\n" +
+    "	print(&quot;indent me&quot;)\n" +
+    "else:\n" +
+    "	print(&quot;hmmm&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
