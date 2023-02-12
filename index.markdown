@@ -25,6 +25,5 @@ Please note: We are working on changing the colours so that they can be colour-b
 
 #### Week 3
 * [Week 3 Lecture](./week3/week3_lec1.html)
-* [Week 3 Exercises](./week3/week3_ex1.html)
 
 
