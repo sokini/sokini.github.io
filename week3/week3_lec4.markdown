@@ -3,10 +3,13 @@ layout: page
 title: Week 3
 ---
 
-> Use all lines
-> line 0 is destination = 0
-> line 1 is current_station = 0
-> line 2 is money = 100
+> Use all lines  
+
+> line 0 is destination = 0  
+
+> line 1 is current_station = 0  
+
+> line 2 is money = 100  
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -20,20 +23,21 @@ title: Week 3
   var initial = "destination = 0\n" +
     "current_station = 0\n" +
     "money = 100\n" +
-    "destination = destination + 1\n" +
-    "current_station = destination\n" +
-    "if (money &lt; 100):\n" +
-    "    ticket = False\n" +
-    "elif (money == 100):\n" +
-    "    ticket = True\n" +
-    "if (current_station == 1 and ticket == True):\n" +
+    "if money &lt; 100:\n" +
+    "	ticket = False\n" +
+    "elif money == 100:\n" +
+    "	ticket = True\n" +
+    "if ticket:\n" +
+    "	destination = destination + 1\n" +
+    "	current_station = destination\n" +
+    "if current_station == 1 and ticket == True:\n" +
     "	print(&quot;Welcome to Mars!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": false,
+    "can_indent": true,
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
