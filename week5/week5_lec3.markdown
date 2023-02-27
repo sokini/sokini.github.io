@@ -3,7 +3,12 @@ layout: page
 title: Week 5 - Lecture
 ---
 
-Re-arrange the code so that it always asks us are we there yet unless the location is "hotel".
+Re-arrange the code so that it always asks us are we there yet unless the location is "hotel". \
+
+The first two lines are: \
+> location = 'Central station' \
+> traveling = True \
+
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 

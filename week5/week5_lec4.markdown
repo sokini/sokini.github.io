@@ -3,7 +3,15 @@ layout: page
 title: Week 5 - Lecture
 ---
 
-Arrange the following function for a simple calculator
+Arrange the following function for a simple calculator.
+
+The if/elif ladder has to follow this order: \ 
+> sum \
+> minus \
+> multiplication \
+> division \
+> invalid input/desired operation not implemented \
+
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -15,7 +23,7 @@ Arrange the following function for a simple calculator
 <script type="text/javascript"> 
 (function(){
   var initial = "def simple_calculator(a, b):\n" +
-    "    operation = input(&quot;What do you want to do? (choose between sum, minus, multiplication and division) \n&quot;)\n" +
+    "    operation = input(&quot;What do you want to do? (choose between sum, minus, multiplication and division)&quot;)\n" +
     "    if operation == &quot;sum&quot;:\n" +
     "        return a + b\n" +
     "    elif operation == &quot;minus&quot;:\n" +
@@ -25,7 +33,8 @@ Arrange the following function for a simple calculator
     "    elif operation == &quot;division&quot;:\n" +
     "        return a / b\n" +
     "    else:\n" +
-    "        return print(&quot;The operation you selected is not implemented yet&quot;)";
+    "        return print(&quot;The operation you selected is not implemented yet&quot;)\n" +
+    "print(simple_calculator(5, 6))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -33,7 +42,7 @@ Arrange the following function for a simple calculator
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang:": "en",
+    "lang": "en",
     "show_feedback": true,
     "trashId": "sortableTrash"
   });
