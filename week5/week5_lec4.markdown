@@ -12,6 +12,8 @@ The if/elif ladder has to follow this order: \
 > division \
 > invalid input/desired operation not implemented \
 
+Hint: the variable operation should be within the scope of the function
+
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
