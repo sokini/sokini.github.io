@@ -39,6 +39,3 @@ SOFIE'S NEW PARSON'S PROBLEM!
   }); 
 })(); 
 </script>
-
-## [Previous](./week3_lec2.html)
-## [Next](./week3_lec4.html)
