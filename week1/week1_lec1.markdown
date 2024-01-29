@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Week 3
+title: Week 1
 ---
 
-SOFIE'S NEW PARSON'S PROBLEM!
+Your first Parsons problem!
+Order the two lines of code, such that it prints the statement "Hello World!"
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
