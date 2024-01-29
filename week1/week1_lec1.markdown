@@ -3,7 +3,7 @@ layout: page
 title: Week 1
 ---
 
-Your first Parson's problem!
+Welcome to your first Parson's problem!
 Order the two lines of code, such that it prints the statement "Hello World!"
 
 <div id="sortableTrash" class="sortable-code"></div> 
