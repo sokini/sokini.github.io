@@ -20,7 +20,7 @@ Please note: We are working on changing the colours so that they can be colour-b
 ### Find exercises according to each week
 
 #### Week 1
-* [Week 1 Lecture](/week1/week1_lec1.html)
+* [Week 1 Lecture](./week1/week1_lec1.html)
 
 #### Week 2 
 * [Week 2 Lecture](./week2/week2_lec1.html)
