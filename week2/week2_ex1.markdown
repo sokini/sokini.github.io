@@ -3,12 +3,9 @@ layout: page
 title: Week 2 - Exercises
 ---
 
-This code was written to measure and update the size of our new dog as they go through their first years. A new measurement is made (in centimeters) 
-every 5 months. Since we are storing the measurement in a variable that we want to update, we want to use the *'temp'* variable to make sure each time we do a measurement
-the latest measurement is transfered to a variable that allows us to see how much the dog has grown in the past 5 months.
+This code was designed to track and adjust the size of our recently acquired dog during its initial years. A new measurement, recorded in centimeters, is taken every 5 months. To ensure the continuous update of our measurement variable, we employ the 'temp' variable. Specifically, 'temp' is assigned the value of the last biannual measurement before the current one, and subsequently, the "last_biannual_measurement" variable is updated with the value of the current measurement. 
 
-But we dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurements.
-
+But - oh no - we just dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurement.
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -21,7 +18,7 @@ But we dropped our code and now it's all scrambled up :( help us find the correc
 (function(){
   var initial = "last_biannual_measuremente = 78\n" +
     "current_measurement = 92\n" +
-    "temp = last_biannual_measuremente\n" +
+    "temp = last_biannual_measurement\n" +
     "last_biannual_measuremente = current_measurement\n" +
     "print(&quot;The last time the dog was measured, they were: &quot; + str(temp) + &quot;cm&quot;)\n" +
     "print(&quot;The last measured size is: &quot; + str(current_measurement) + &quot;cm&quot;)";
