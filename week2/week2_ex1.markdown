@@ -16,10 +16,10 @@ But - oh no - we just dropped our code and now it's all scrambled up :( help us 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "last_biannual_measuremente = 78\n" +
+  var initial = "last_biannual_measurement = 78\n" +
     "current_measurement = 92\n" +
     "temp = last_biannual_measurement\n" +
-    "last_biannual_measuremente = current_measurement\n" +
+    "last_biannual_measurement = current_measurement\n" +
     "print(&quot;The last time the dog was measured, they were: &quot; + str(temp) + &quot;cm&quot;)\n" +
     "print(&quot;The last measured size is: &quot; + str(current_measurement) + &quot;cm&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
