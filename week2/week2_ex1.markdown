@@ -5,7 +5,7 @@ title: Week 2 - Exercises
 
 This code was designed to track and adjust the size of our recently acquired dog during its initial years. A new measurement, recorded in centimeters, is taken every 5 months. To ensure the continuous update of our measurement variable, we employ the 'temp' variable. Specifically, 'temp' is assigned the value of the last biannual measurement before the current one, and subsequently, the "last_biannual_measurement" variable is updated with the value of the current measurement. 
 
-But - oh no - we just dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurement.
+But - oh no - we just dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurement.*
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
