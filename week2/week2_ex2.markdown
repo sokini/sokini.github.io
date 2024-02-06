@@ -19,9 +19,10 @@ Rearrange the code blocks to create a program that checks whether a given number
     "is_positive = number1 > 0\n" +
     "is_negative = number1 < 0\n" +
     "is_zero = number1 == 0\n" +
-    "print("Positive:", is_positive)\n"
-    "print("Negative:", is_negative)\n" +
-    "print("Zero:", is_zero);
+    "print(&quot;Positive:&quot;, is_positive)\n"
+    "print(&quot;Negative:&quot;, is_negative)\n" +
+    "print(&quot;Zero:&quot;, is_zero)"
+    ;
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
