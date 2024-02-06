@@ -15,7 +15,7 @@ Rearrange the code blocks to create a program that checks whether a given number
 <script type="text/javascript"> 
 (function(){
   var initial = "number1 = 3\n" +
-    "current_measurement = 92\n" +
+    "current_measurement = 92 #distractor\n" +
     "is_positive = number1 > 0\n" +
     "is_negative = number1 < 0\n" +
     "is_zero = number1 == 0\n" +
