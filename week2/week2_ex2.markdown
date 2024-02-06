@@ -5,6 +5,8 @@ title: Week 2 - Exercise 2
 
 Rearrange the code blocks to create a program that checks whether a given number is positive, negative, or zero and prints the result.
 
+No need to use all the lines of code...
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
