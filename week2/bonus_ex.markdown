@@ -4,17 +4,22 @@ title: Week 2 - Exercises Bonus!!
 ---
 
 > You have decided to get into the lemonade stand business now that you are more familiar with IT systems. Unlike the other kids in the block, you actually use
-> a book keeping system to keep track of your sales. Even better, you are writing this bookkeeping system yourself in Python. So far things have been quite easy, but
+> a book keeping system to keep track of your sales. Even better, you are writing this book keeping system yourself in Python. So far things have been quite easy, but
 > competition from the other kids has gotten more and more tricky.
 
-> To inject more revenue stream into your lemonda stand business you have decided to start selling Ice Tea. And it's going very well! But you noticed your
-> book keeping system was only written to deal with one type of drink. Furthermore, now that you sell different drinks you want to keep track of your total drinks sales, taking into account how many you started with so you stock your drinks accordingly.
+> To inject more revenue stream into your lemonade business you have decided to start selling iced tea as well. And it's going very well! But until now, your
+> book keeping system has only been able to handle  one type of drink. Furthermore, now that you sell different drinks you want to keep track of your total drinks sales, taking into account how many you started with so you stock your drinks accordingly.
 
 The day went like this:
 - You started off with 10 lemonades and 5 iced teas in your storage
 - You sold 3 lemonades throughout the day
 
 Sadly on your way to implement the code you dropped it again 🤦 and it got jumbled up. Using it side-by-side with Mu Editor, make sure the code below works.
+
+Hint - the code must print the text in the following order:
+- lemonades sold
+- iced teas sold
+- current stock
 
 
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -29,14 +34,14 @@ Sadly on your way to implement the code you dropped it again 🤦 and it got jum
   var initial = "lemonade = 10\n" +
     "iced_tea = 5\n" +
     "beggining_of_day_lemonade = lemonade\n" +
-    "beggining_of_day_icetea = iced_tea\n" +
+    "beggining_of_day_icedtea = iced_tea\n" +
     "#here you sold 3 lemonade wooo \n" +
     "lemonade = 7\n" +
     "sold_lemonade = beggining_of_day_lemonade - lemonade\n" +
-    "sold_icetea = beggining_of_day_icetea - iced_tea\n" +
+    "sold_icedtea = beggining_of_day_icedtea - iced_tea\n" +
     "total_drinks_in_stock = lemonade + iced_tea\n" +
     "print(&quot;You have sold: &quot; + sold_lemonade + &quot;lemonade.&quot;)\n" +
-    "print(&quot;You have sold: &quot; + sold_icetea + &quot;iced tea&quot;)\n" +
+    "print(&quot;You have sold: &quot; + sold_icedtea + &quot;iced tea&quot;)\n" +
     "print(&quot;Current number of drinks in stock: &quot; + total_drinks_in_stock)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
