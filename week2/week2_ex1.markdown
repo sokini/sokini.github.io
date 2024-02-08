@@ -7,6 +7,8 @@ This code was designed to track and adjust the size of our recently acquired dog
 
 But - oh no - we just dropped our code and now it's all scrambled up :( help us find the correct order so that the code correctly outputs the latest and previous measurement.
 
+(Hint: start by declaring last_biannual_measurement)
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
