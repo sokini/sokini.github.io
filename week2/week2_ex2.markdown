@@ -6,6 +6,7 @@ title: Week 2 - Exercise 2
 Rearrange the code blocks to create a program that checks whether a given number is positive, negative, or zero and prints the result.
 
 Hint 1: The comparisons is ordered such that you start by checking whether the number is positive, then negative, then equal to 0.
+<br>
 Hint 2: No need to use all the lines of code...
 
 
