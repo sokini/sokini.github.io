@@ -25,7 +25,7 @@ Hints:
   var initial = "account = 100\n" +
     "if account &lt; 100:\n" +
     "can_afford_pitcher = False\n" +
-    "elif account &mt;= 100:\n" +
+    "elif account == 100:\n" +
     "can_afford_pitcher = True\n" +
     "current_floor = -1\n" +    "destination_floor = current_floor + 1\n" +
     "if can_afford_pitcher:\n" +
