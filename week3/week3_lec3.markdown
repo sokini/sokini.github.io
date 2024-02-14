@@ -3,12 +3,9 @@ layout: page
 title: Week 3
 ---
 
-> Use all lines  
-
-> line 0 is destination = 0  
-
-> line 1 is ticket = True  
-
+Finally! Classes are done and you are heading home. <br>
+Order the code below, so you can make it to the basement and pick up your bike. <br>
+Don't forget your bike keys!
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -19,12 +16,12 @@ title: Week 3
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "destination = 0\n" +
-    "ticket = True\n" +
-    "destination = destination + 1\n" +
-    "current_station = destination\n" +
-    "if (current_station == 1 and ticket == True):\n" +
-    "	print(&quot;Welcome to Mars!&quot;)";
+  var initial = "current_floor = 4\n" +
+    "keys = True\n" +
+    "destination_floor = current_floor - 5\n" +
+    "current_floor = destination_floor\n" +
+    "if (current_floor == -1 and keys == True):\n" +
+    "	print(&quot;Welcome to the basement!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
