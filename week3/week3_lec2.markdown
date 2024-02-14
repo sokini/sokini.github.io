@@ -17,7 +17,7 @@ Order the code for the ITU elevator asap, so you can make it to class in time!
 <script type="text/javascript"> 
 (function(){
   var initial = "current_floor = 0\n" +
-    "destination_floor = destination + 4\n" +
+    "destination_floor = current_floor + 4\n" +
     "current_floor = destination_floor\n" +
     "if (current_floor == 4):\n" +
     "	print(&quot;Welcome to 4th floor!&quot;)";

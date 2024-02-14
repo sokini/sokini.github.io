@@ -3,7 +3,7 @@ layout: page
 title: Week 3 - Lecture
 ---
 
-You are on your way to PDP lecture but currently in the basemant parking your bike. <br>
+You are on your way to PDP lecture but currently in the basement parking your bike. <br>
 Order the code below, such that the elevator takes you to the auditoriums on the ground floor (denoted by the number 0).
 
 <div id="sortableTrash" class="sortable-code"></div> 
