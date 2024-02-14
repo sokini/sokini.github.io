@@ -27,6 +27,7 @@ Hints:
     "can_afford_pitcher = False\n" +
     "elif account => 100:\n" +
     "can_afford_pitcher = True\n" +
+    "current_floor = -1\n" +
     "if can_afford_pitcher:\n" +
     "destination_floor = current_floor + 1\n" +
     "current_floor = destination_floor\n" +
