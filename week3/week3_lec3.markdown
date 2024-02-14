@@ -22,7 +22,7 @@ Oh, by the way, secure your keys before registering the current floor 😉
     "current_floor = 4\n" +
     "destination_floor = current_floor - 5\n" +
     "current_floor = destination_floor\n" +
-    "if (current_floor == -1 and keys == True):\n" +
+    "if current_floor == -1 and keys == True:\n" +
     "	print(&quot;Welcome to the basement!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
