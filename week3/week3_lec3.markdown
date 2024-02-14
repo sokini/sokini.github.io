@@ -7,6 +7,8 @@ Finally! Classes are done and you are heading home. <br>
 Order the code below, so you can make it to the basement and pick up your bike. <br>
 Don't forget your bike keys!
 
+Oh, and, secure your keys before registering the current floor 😉
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
