@@ -48,7 +48,5 @@ Oh, and, secure your keys before registering the current floor 😉
 })(); 
 </script>
 
-
-
 ## [Previous](./week3_lec2.html)
 ## [Next](./week3_lec4.html)
