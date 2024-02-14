@@ -3,7 +3,8 @@ layout: page
 title: Week 3 - Lecture
 ---
 
-Use all lines
+You are on your way to PDP lecture but currently in the basemant parking your bike.
+Order the code below, such that the elevator takes you to the auditoriums on the ground floor (denoted by the number 0)
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -14,10 +15,10 @@ Use all lines
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "destination = 1\n" +
+  var initial = "destination = 0\n" +
     "current_station = destination\n" +
-    "if (current_station == 1):\n" +
-    "    print(&quot;Welcome to Mars!&quot;)";
+    "if (current_station == 0):\n" +
+    "    print(&quot;Welcome to the ground floor!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
