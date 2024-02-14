@@ -9,9 +9,9 @@ Before venturing with the elevator to the ground floor, you want to make sure yo
 Order the code below, such that you only go up with the elevator, if you can afford a pitcher. <br>
 
 Hints:
-> - Check your account as the first thing!<br>
-> - After this, set the current_floor to -1<br>
-> - Then, if you can afford a pitcher, set your destination_floor
+- Check your account as the first thing!<br>
+- After this, set the current_floor to -1<br>
+- Then, if you can afford a pitcher, set your destination_floor
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
