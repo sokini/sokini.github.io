@@ -3,7 +3,9 @@ layout: page
 title: Week 3
 ---
 
-Use all lines
+The PDP lecture finished and you went to Analog to pick up a coffee before the exercise session. <br>
+However, the line was looong and now you are rushing to get to fourth floor for exercises. <br>
+Order the code for the ITU elevator asap, so you can make it to class in time!
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -14,11 +16,11 @@ Use all lines
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "destination = 0\n" +
-    "destination = destination + 1\n" +
-    "current_station = destination\n" +
-    "if (current_station == 1):\n" +
-    "	print(&quot;Welcome to Mars!&quot;)";
+  var initial = "current_floor = 0\n" +
+    "destination_floor = destination + 4\n" +
+    "current_floor = destination_floor\n" +
+    "if (current_floor == 4):\n" +
+    "	print(&quot;Welcome to 4th floor!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
