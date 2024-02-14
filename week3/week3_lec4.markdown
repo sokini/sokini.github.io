@@ -10,7 +10,7 @@ Order the code below, such that you only go up with the elevator, if you can aff
 
 Hints:
 - Check your account as the first thing!<br>
-- After this, if you can afford a pitcher,set the current_floor and destination_floor<br>
+- After this, if you can afford a pitcher, set the current_floor and destination_floor<br>
 - Then, if you can afford a pitcher and the current_floor is ground floor, get off the elevator!
 
 <div id="sortableTrash" class="sortable-code"></div> 
