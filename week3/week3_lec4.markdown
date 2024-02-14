@@ -31,7 +31,7 @@ Hints:
     "if can_afford_pitcher:\n" +
     "destination_floor = current_floor + 1\n" +
     "current_floor = destination_floor\n" +
-    "if current_floor == 1 and can_afford_pitcher == True:\n" +
+    "if current_floor == 0 and can_afford_pitcher == True:\n" +
     "	print(&quot;Cheers! And welcome to the ground floor!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
