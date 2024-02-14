@@ -3,13 +3,15 @@ layout: page
 title: Week 3
 ---
 
-> Use all lines  
+Just as you unlock your bike, you get a text from your study group, inviting you to join them in Scrollbar. <br>
+Before venturing with the elevator to the ground floor, you want to make sure you can afford a pitcher for all of you. <br>
 
-> line 0 is destination = 0  
+Order the code below, such that you only go up with the elevator, if you can afford a pitcher. <br>
 
-> line 1 is current_station = 0  
-
-> line 2 is money = 100  
+Hints:
+> Check your account as the first thing!
+> After this, set the current_floor to -1
+> Then - if you can afford a pitcher, set your destination_floor
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -20,18 +22,16 @@ title: Week 3
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "destination = 0\n" +
-    "current_station = 0\n" +
-    "money = 100\n" +
-    "if money &lt; 100:\n" +
-    "	ticket = False\n" +
-    "elif money == 100:\n" +
-    "	ticket = True\n" +
-    "if ticket:\n" +
-    "	destination = destination + 1\n" +
-    "	current_station = destination\n" +
-    "if current_station == 1 and ticket == True:\n" +
-    "	print(&quot;Welcome to Mars!&quot;)";
+  var initial = "account = 100\n" +
+    "if account &lt; 100:\n" +
+    "can_afford_pitcher = False\n" +
+    "elif account => 100:\n" +
+    "can_afford_pitcher = True\n" +
+    "if can_afford_pitcher:\n" +
+    "destination_floor = current_floor + 1\n" +
+    "current_floor = destination_floor\n" +
+    "if current_floor == 1 and can_afford_pitcher == True:\n" +
+    "	print(&quot;Cheers! And welcome to the ground floor!&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
