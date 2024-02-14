@@ -10,7 +10,7 @@ Order the code below, such that you only go up with the elevator, if you can aff
 
 Hints:
 - Check your account as the first thing!<br>
-- After this, set the current_floor to -1<br>
+- After this, set the current_floor and destination_floor<br>
 - Then, if you can afford a pitcher, set your destination_floor
 
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -25,11 +25,10 @@ Hints:
   var initial = "account = 100\n" +
     "if account &lt; 100:\n" +
     "can_afford_pitcher = False\n" +
-    "elif account >= 100:\n" +
+    "elif account &mt;= 100:\n" +
     "can_afford_pitcher = True\n" +
-    "current_floor = -1\n" +
+    "current_floor = -1\n" +    "destination_floor = current_floor + 1\n" +
     "if can_afford_pitcher:\n" +
-    "destination_floor = current_floor + 1\n" +
     "current_floor = destination_floor\n" +
     "if current_floor == 0 and can_afford_pitcher == True:\n" +
     "	print(&quot;Cheers! And welcome to the ground floor!&quot;)";
