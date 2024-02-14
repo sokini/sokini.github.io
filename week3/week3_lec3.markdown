@@ -7,7 +7,7 @@ Finally! Classes are done and you are heading home. <br>
 Order the code below, so you can make it to the basement and pick up your bike. <br>
 Don't forget your bike keys!
 
-Oh, and, secure your keys before registering the current floor 😉
+Oh, by the way, secure your keys before registering the current floor 😉
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -18,8 +18,8 @@ Oh, and, secure your keys before registering the current floor 😉
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "current_floor = 4\n" +
-    "keys = True\n" +
+  var initial = "keys = True\n" +
+    "current_floor = 4\n" +
     "destination_floor = current_floor - 5\n" +
     "current_floor = destination_floor\n" +
     "if (current_floor == -1 and keys == True):\n" +
