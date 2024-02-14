@@ -27,8 +27,8 @@ Hints:
     "can_afford_pitcher = False\n" +
     "elif account &ge; 100:\n" +
     "can_afford_pitcher = True\n" +
-    "current_floor = -1\n" +    "destination_floor = current_floor + 1\n" +
     "if can_afford_pitcher:\n" +
+    "current_floor = -1\n" +    "destination_floor = current_floor + 1\n" +
     "current_floor = destination_floor\n" +
     "if current_floor == 0 and can_afford_pitcher == True:\n" +
     "	print(&quot;Cheers! And welcome to the ground floor!&quot;)";
