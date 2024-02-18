@@ -18,11 +18,11 @@ The factorial of a non-negative integer n, denoted as n!, is the product of all 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "num = int(input("Enter a number: "))\n" +
+  var initial = "num = int(input(&quot;Enter a number: &quot;))\n" +
     "factorial = 1\n" +
     "for i in range(1, num + 1):\n" +
     "factorial=factorial*i\n" +
-    "    print("The factorial of " + str(num) + " is " + str(factorial))\n";
+    "    print(&quot;The factorial of &quot; + str(num) + " is " + str(factorial))\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
