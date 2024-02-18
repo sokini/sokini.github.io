@@ -21,8 +21,8 @@ The factorial of a non-negative integer n, denoted as n!, is the product of all 
   var initial = "num = int(input(&quot;Enter a number: &quot;))\n" +
     "factorial = 1\n" +
     "for i in range(1, num + 1):\n" +
-    "factorial=factorial*i\n" +
-    "    print(&quot;The factorial of &quot; + str(num) + &quot; is &quot; + str(factorial))\n";
+    " factorial=factorial*i\n" +
+    " print(&quot;The factorial of &quot; + str(num) + &quot; is &quot; + str(factorial))\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
