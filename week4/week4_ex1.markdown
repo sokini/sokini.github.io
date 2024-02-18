@@ -47,5 +47,3 @@ The factorial of a non-negative integer n, denoted as n!, is the product of all 
 })(); 
 </script>
 
- <! -- ## [Next](./week4_ex2.html) --> 
-
