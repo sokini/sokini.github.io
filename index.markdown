@@ -3,11 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Welcome to PDP2024's Parson's problem interactive tool
+title: Welcome to PDP2025's Parson's problem interactive tool
 ---
 
 
-This page serves as the main index for the Parson's problems that we will host each week. If you have any questions about this tool please reach out to TA Sofie at soni@itu.dk.
+This page serves as the main index for the Parson's problems that we will host each week. If you have any questions about this tool please reach out to lecturer Sofie at soni@itu.dk.
 
 Here are the instructions to keep in mind while using the tool:
 
